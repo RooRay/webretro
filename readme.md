@@ -1,5 +1,5 @@
 # webretro
-[RetroArch](https://github.com/libretro) ported to WebAssembly with [emscripten](https://emscripten.org/)!
+A mirror of webretro which is [RetroArch](https://github.com/libretro) ported to WebAssembly with [emscripten](https://emscripten.org/)!
 
 [**Official Instance**](https://binbashbanana.github.io/webretro/)
 
