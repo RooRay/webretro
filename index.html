@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- Source Code: https://github.com/BinBashBanana/webretro -->
+<!-- Source Code: https://github.com/RooRay/webretro -->
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 		<meta name="color-scheme" content="dark light">
 		<meta name="theme-color" content="#333333">
-		<title>webretro</title>
+		<title>Retro Arcade - Powered by webretro</title>
 		<meta name="description" content="RetroArch in your browser! Libretro cores compiled to WASM using emscripten, plus a custom UI.">
 		<meta name="robots" content="nofollow">
 		<meta name="og:title" content="webretro">
@@ -174,7 +174,7 @@
 								</ul>
 							</li>
 							<li class="pointer" id="downloadstandalonebutton">Download Standalone</li>
-							<li><a href="https://github.com/BinBashBanana/webretro" target="_blank">GitHub</a></li>
+							<li><a href="https://github.com/RooRay/webretro" target="_blank">GitHub</a></li>
 						</ul>
 					</li>
 					<li id="menubutton" class="disabled">
@@ -185,7 +185,7 @@
 					</li>
 				</ul>
 			</div>
-			<h1 id="webretrotitle">webretro</h1>
+			<h1 id="webretrotitle">Retro Arcade</h1>
 			<div id="ffd">
 				<div id="ffdcontent">
 					<div id="coreselectarea">
@@ -194,18 +194,18 @@
 							<label for="coreorder">Sort by:</label>
 							<select id="coreorder">
 								<option value="system" selected>System</option>
-								<option value="corename">Core name</option>
-								<option value="libraryname">Library name</option>
+								<option value="corename">Name of Core</option>
+								<option value="libraryname">Console Name</option>
 							</select>
 						</div>
 						<ul class="corelistul">
-							<li><a href="?core=autodetect" class="greyer">AutoDetect (Slower to load)</a></li>
+							<li><a href="?core=autodetect" class="greyer">Auto Detect (Slower to load)</a></li>
 							<span id="corelist"></span>
 						</ul>
 					</div>
 					<div id="uploadarea">
 						<h2><span id="systemname"></span> Emulator</h2>
-						<input type="button" id="upload" value="Choose ROM File" class="uploadbutton">
+						<input type="button" id="upload" value="Choose a ROM File" class="uploadbutton">
 						<br>
 						<img id="googledriveupload" class="uploadbutton uploadimage" title="Google Drive Upload" src="assets/icons/googledrive.png">
 						<img id="dropboxupload" class="uploadbutton uploadimage" title="Dropbox Upload" src="assets/icons/dropbox.png">
@@ -213,11 +213,12 @@
 					</div>
 				</div>
 				<div class="source">
-					<a href="https://github.com/BinBashBanana/webretro" target="_blank">GitHub</a>
+					<a href="https://github.com/RooRay/webretro" target="_blank">GitHub</a>
 					<a href="https://github.com/libretro" target="_blank">Libretro</a>
 					<a href="" target="_blank" id="coregithub">Core Github</a>
 					<a href="https://emscripten.org" target="_blank">Emscripten</a>
 					<a href="info/" target="_blank">Info</a>
+					<a href="https://ruaridhprentice.com/#arcade-help">Help</a>
 					<span id="versionindicator"></span>
 				</div>
 			</div>
